@@ -1,5 +1,5 @@
 let readLines =
-    System.IO.File.ReadLines("input_day1.txt")
+    System.IO.File.ReadLines("input.txt")
 
 let nums =
     readLines

@@ -29,8 +29,7 @@ let isTobogganPassValid (rule, str) =
     | (false, true) -> true
     | (_, _) -> false
 
-let readLines =
-    System.IO.File.ReadLines("input_day2.txt")
+let readLines = System.IO.File.ReadLines("input.txt")
 
 let nums =
     readLines
