@@ -1,5 +1,7 @@
-#Ionide Plugin
-.ionide/*
-
 #hides input files
 *.txt
+
+#Ionide Plugin
+.ionide/*
+.fake
+.ionide
